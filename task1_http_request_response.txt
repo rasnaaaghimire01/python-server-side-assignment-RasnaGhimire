@@ -1,0 +1,68 @@
+Task 1: Inspect HTTP Request and Response Using Browser Developer Tools
+
+Objective:
+To inspect the HTTP request and response exchanged between a web browser and a web server using Chrome Developer Tools.
+
+Procedure:
+
+Opened Google Chrome browser.
+Visited www.google.com.
+Pressed F12 to open Developer Tools.
+Selected the Network tab.
+Refreshed the webpage.
+Selected a network request and viewed its details.
+
+Explanation:
+
+Request URL
+The Request URL identifies the location of the requested resource on the server.
+
+Example:
+https://www.gstatic.com/images/branding/googlelogo/
+
+Request Method
+The Request Method specifies the action performed by the browser.
+
+Method Used:
+GET
+
+GET is used to retrieve data from the server.
+
+Status Code
+The Status Code indicates whether the request was successful.
+
+Status Code:
+200 OK
+
+This means the server successfully processed the request and returned the requested resource.
+
+Remote Address
+The Remote Address represents the IP address of the server handling the request.
+
+Purpose:
+It identifies the destination server that provides the requested resource.
+
+Response Headers
+Response Headers contain information returned by the server.
+
+Examples:
+Content-Type
+Cache-Control
+Date
+Content-Encoding
+
+These headers provide information about the returned content and browser caching behavior.
+
+Content Type
+Content-Type specifies the format of the returned resource.
+
+Example:
+image/svg+xml
+
+This indicates that the resource is an SVG image.
+
+Cache-Control
+Cache-Control determines how long the browser can store the resource before requesting it again.
+
+Purpose:
+It improves website performance and reduces server load.
